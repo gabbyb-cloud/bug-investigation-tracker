@@ -37,6 +37,10 @@ On Windows, use `py -3` instead of `python` if necessary. Data goes into `bugs.d
 
 Run `python -m unittest discover -s tests -v`. Tests use a fresh temporary database and don't touch your regular `bugs.db`. This README does not claim a hosted CI run. See actual local test output for the current execution result.
 
+### Defect investigation
+
+[Windows SQLite Test Cleanup — Root Cause and Resolution](defect-investigation-001.md)
+
 ## Privacy
 
 Only use synthetic bug data in a public repository. Local `.db` files are excluded from Git. Do not paste proprietary customer, business, or security findings into public samples.
